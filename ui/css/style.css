@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  padding: auto;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  border: 1px solid blue;
+  background-color: #C4BBB4;
+  text-align: center;
+  overflow-y: auto;
+  color: rgb(229, 253, 7);
+}
+
+
+
+nav {
+  position: fixed;
+  top: 0;
+  width:100%;
+  height: 60px;
+  background-color: #F58634;
+  margin-top: -13px;
+}
+
+ul {
+  list-style: none;
+  word-spacing: 20px;
+}
+
+.nav-link {
+  display: inline-block;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+nav #logo {
+  width: 45px;
+  height: 45px;
+  float: left;
+  margin-left: 5px;
+  position: relative;
+  top: 14px;
+
+}
+
+#signup {
+  float: right;
+  margin-right: 10px;
+}
+
+#logout {
+  float: right;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#divpos {
+  position: relative;
+}
+
+.welcome {
+  position: absolute;
+  top: 70px;
+  right: 120px;
+ z-index: 1;
+ animation-name: colorchange;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+}
+
+#welcome-user-reg {
+  position: absolute;
+  top: 70px;
+  right: 70px;
+}
+
+@keyframes colorchange {
+  0% {color: #DFFD07;}
+  30% {color: #3D5869;}
+  50% {color: #F58634;}
+  80% {color: #9F3342;}
+  100% {color: #FDFEFE;}
+}
+
+#imghome {
+  width: 50%;
+  height: 100vh;
+  position: fixed;
+  z-index: 0;
+  left: 0;
+  top: 46px;
+}
+
+#formright {
+  position: absolute;
+  right: 120px;
+  top: 150px;
+}
+
+#p-right {
+position: absolute;  
+right: 120px;
+top: 250px;
+}
+
+#login-table {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#clogin-table {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#signup-table {
+  width: 300px;
+  margin: 0 auto;
+}
+
+td label {
+  float: right;
+}
+
+#dashboard {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid brown;
+}
+
+#dashboard td {
+  width: 5%;
+  height: 60px;
+  border: 1px solid brown;
+}
+
+.userdetails {
+  font-weight: bold;
+}
+
+#flex-div {
+  display: flex;
+}
+
+.flex-item {
+  width: 20%;
+}
+
+.login {
+  color: whitesmoke;
+  background-color: #F58634;
+  padding: 5px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+#success {
+  color: green;
+  margin-top: 30px;
+}
+
+#logout {
+  float: right;
+  margin-right: 10px;
+}
+
+#howdy {
+  margin-top: 70px;
+}
+
+.hover {
+  font-size: 18px;
+}
+
+.hover:hover {
+  color: #F58634;
+}
+
+.viewacc table{
+ width: 600px;
+ margin: auto;
+}
+
+.admin-flex {
+  width: 350px;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  right: 120px;
+  top: 150px;
+}
+
+.admin-flex-item {
+  width: 50%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.h3 {
+  margin-top: 40px;
+}
+
+button a {
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 7%;
+  background-color: #F58634;
+  text-align: center;
+  line-height: 35px;
+  color: blue;
+}
+
