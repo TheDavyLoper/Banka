@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Banka | Cashier Credit and Debit</title>
+</head>
+<body>
+  <div class="main">
+    <header>
+      <nav>
+        <img src="images/bankalogo.png" alt="Banka Logo" id="logo">
+        <ul>
+          <li class="nav-link"><a href="index.html">Home</a></li>
+          <li class="nav-link"><a href="staff.html">Dashboard</a></li>
+          <li class="nav-link" id="logout"><a href="adminlogin.html">LogOut</a></li>
+        </ul> 
+      </nav>
+    </header>
+    <div class="content">
+      <div id="divpos">
+        <img id="imghome" src="images/cashier.jpg" alt="cashier">
+        <h3 class="welcome">Enter amount to credit or debit</h3>
+      </div>
+
+      <div class="form" id="formright">
+        <form action="">
+          <table id="login-table">
+            <tr>
+              <td><label class="label" for="amount">Amount:</label></td>
+              <td><input type="text" id="amount" name="amount" placeholder="Amount" required></td>
+            </tr>
+            <tr>
+              <td><label class="label" for="depositor">Depositor:</label></td>
+              <td><input type="text" id="depositor" placeholder="Depositor"></td>
+            </tr>
+            <tr>
+              <td><label class="label" for="acct">A/C No.:</label></td>
+              <td><input type="text" id="acct" placeholder="A/C No." required></td>
+            </tr>
+            <tr>
+              <td><label class="label" for="acctname">A/C Name:</label></td>
+              <td><input type="text" id="acctname" placeholder="A/C Name:"></td>
+            </tr>
+            <tr>
+              <td><label class="label">Transaction Type:</label></td>
+              <td><input type="radio" id="credit" name="trntype" value="Credit" checked>Admin
+              <input type="radio" id="debit" name="trntype" value="Debit">Debit</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><button type="submit" class="login">Submit</button></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+    <footer>Banka &copy right 2019</footer>
+  </div>
+</body>
+</html>
