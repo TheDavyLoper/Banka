@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: auto;
+  overflow: hidden;
 }
 
 .main {
@@ -223,3 +224,44 @@ footer {
   color: blue;
 }
 
+@media only screen and (max-width: 600px) {
+  nav {
+    position: fixed;
+    top: 0;
+    width:100%;
+    height: 125px;
+    background-color: #F58634;
+    margin-top: -13px;
+  }
+    .nav-link {
+    display: block;
+    line-height: 35px;
+    font-size: 20px;
+    width: 80%;
+    margin-bottom: 1px;
+    border-radius: 4px;
+    position: relative;
+    left: 16px;
+  }
+
+    #imghome {
+    display: none;
+   }
+
+    .welcome {
+    position: absolute;
+    top: 110px;
+    text-align: center;
+  }
+
+    #formright {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+  }
+
+  #signup {
+    display: none;
+  }
+
+}
